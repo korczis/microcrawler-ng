@@ -17,18 +17,33 @@ $ microcrawler
 
   Options:
 
-    -h, --help         output usage information
-    -V, --version      output the version number
-    -t, --type [type]  Type of crawler to use
-
+    -h, --help          output usage information
+    -V, --version       output the version number
+    -l, --list-modules  List supported crawlers/modules
+    -t, --type [type]   Type of crawler to use
 ```
 
 ## Built-in modules
 
-- [google](https://github.com/korczis/microcrawler-ng/blob/master/lib/modules/google.js)
-- [hackernews](https://github.com/korczis/microcrawler-ng/blob/master/lib/modules/hackernews.js)
-- [xkcd](https://github.com/korczis/microcrawler-ng/blob/master/lib/modules/xkcd.js)
-- [youjizz](https://github.com/korczis/microcrawler-ng/blob/master/lib/modules/youjizz.js)
+You can list built-in modules with following command:
+
+`microcrawler -l`
+
+***Output**
+
+```
+┌────────────┬──────────────────────────────┐
+│ Name       │ URL                          │
+├────────────┼──────────────────────────────┤
+│ google     │ https://google.com           │
+├────────────┼──────────────────────────────┤
+│ hackernews │ https://news.ycombinator.com │
+├────────────┼──────────────────────────────┤
+│ xkcd       │ http://xkcd.com              │
+├────────────┼──────────────────────────────┤
+│ youjizz    │ http://youjizz.com           │
+└────────────┴──────────────────────────────┘
+```
 
 ## Examples
 
