@@ -29,7 +29,7 @@ You can list built-in modules with following command:
 
 `microcrawler -l`
 
-***Output**
+***Output***
 
 ```
 ┌────────────┬──────────────────────────────┐
