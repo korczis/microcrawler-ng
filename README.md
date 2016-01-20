@@ -71,3 +71,4 @@ Examples how to use built-in modules.
 - Add tests
 - Add persistence
 - Add WebUI (react)
+- Add example using as library
