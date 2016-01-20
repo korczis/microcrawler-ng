@@ -64,3 +64,10 @@ Examples how to use built-in modules.
 ### youjizz
 
 `microcrawler -t youjizz http://youjizz.com`
+
+## To Do
+
+- Add ESLint
+- Add tests
+- Add persistence
+- Add WebUI (react)
